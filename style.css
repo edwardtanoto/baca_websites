@@ -1,0 +1,7 @@
+body {
+    font-family: 'montserrat';
+}
+.landing-page{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #621a94, #4b5cc3, #418ee0, #66bcf1, #a5e6ff);
+}

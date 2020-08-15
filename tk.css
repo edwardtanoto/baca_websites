@@ -1,0 +1,39 @@
+
+.periodic-icons>div{
+    margin:20px 0px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, #232323, #49394e, #834a6d, #c45978, #ff6f6f);
+    cursor: default;
+}
+.periodic-element{
+    background:#FFF;
+	border-radius:8px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2); 
+    padding:25px 0px;
+}
+
+.periodic-element:hover{
+    background: #1fa2ff; 
+    background: -webkit-linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); 
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    color:#FFF;
+}
+
+.periodic-element:hover h1, 
+.periodic-element:hover span{
+   color:#FFF;
+   font-weight:600;
+}
+
+.atomic-number {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  font-size: 14px;
+  color: #00e1f1;
+}
